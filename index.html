@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-9=8">
+        <title>DICE GENERATOR 2.0</title>
+        <link rel="stylesheet" href="dice.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+        </style>
+    </head>
+    
+    <body>
+        <div id="titulo">Dice Generator 2.0</div>
+        <br>
+        <div class="dados">
+            <div>
+                <h1>D4</h1>
+                <h2 class="numbers" id="n4">0<h2>
+                <button class="btn" id="bt4" onclick="rolar(this.id)">ROLL</button>
+                <br><h3>Add status to d4:</h3>
+                <input type="Number" class="inserir" id="r4"></input>
+                <div class="resposta" id="t4">0</div>
+            </div>
+            <div>
+                <h1>D6</h1>
+                <h2 class="numbers" id="n6">0<h2>
+                <button class="btn" id="bt6" onclick="rolar(this.id)">ROLL</button>
+                <br><h3>Add status to d6:</h3>
+                <input type="Number" class="inserir" id="r6"></input>
+                <div class="resposta" id="t6">0</div>
+            </div>
+            <div>
+                <h1>D8</h1>
+                <h2 class="numbers" id="n8">0<h2>
+                <button class="btn" id="bt8" onclick="rolar(this.id)">ROLL</button>
+                <br><h3>Add status to d8:</h3>
+                <input type="Number" class="inserir" id="r8"></input>
+                <div class="resposta" id="t8">0</div>
+            </div>
+            <div>
+                <h1>D10</h1>
+                <h2 class="numbers" id="n10">0<h2>
+                <button class="btn" id="bt10" onclick="rolar(this.id)">ROLL</button>
+                <br><h3>Add status to d10:</h3>
+                <input type="Number" class="inserir" id="r10"></input>
+                <div class="resposta" id="t10">0</div>
+            </div>
+            <div>
+                <h1>D12</h1>
+                <h2 class="numbers" id="n12">0<h2>
+                <button class="btn" id="bt12" onclick="rolar(this.id)">ROLL</button>
+                <br><h3>Add status to d12:</h3>
+                <input type="Number" class="inserir" id="r12"></input>
+                <div class="resposta" id="t12">0</div>
+            </div>
+            <div>
+                <h1>D20</h1>
+                <h2 class="numbers" id="n20">0<h2>
+                <button class="btn" id="bt20" onclick="rolar(this.id)">ROLL</button>
+                <br><h3>Add status to d20:</h3>
+                <input type="Number" class="inserir"id="r20"></input>
+                <div class="resposta" id="t20">0</div>
+            </div>
+        </div>
+        <script src="dice.js"></script>
+    </body>
+</html>

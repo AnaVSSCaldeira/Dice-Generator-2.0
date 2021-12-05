@@ -1,0 +1,87 @@
+:root{
+	--clr-dice: linear-gradient(100deg,#707070,#b1b1b1);
+    --clr-btn: linear-gradient(to bottom,#000000,#474747);
+	--clr-bg: linear-gradient(100deg,#000000,#474747);
+    --clr-btn1: linear-gradient(to top, #555454, #dddddd);
+    --clr-btn2: linear-gradient(to top, #dddddd, #555454);
+}
+body{
+    background: var(--clr-bg);
+}
+
+#titulo{
+    font-family:'Open Sans';
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+.dados{
+    border-radius: 50px;
+    border: 1px solid var(--clr-dice);
+    background: var(--clr-dice);
+    font-family:'Open Sans';
+    text-align: center;
+    color: white;
+    display:flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 50px;
+}
+
+.btn{
+    font-family: "Open Sans";
+    font-size: 20px;
+    padding: 10px;
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 50px;
+	border: 5px solid rgb(46, 46, 46);
+	text-transform: uppercase;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+	background: var(--clr-btn1);
+	cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--clr-btn2);
+}
+
+.btn:active{
+    border: 5px solid rgb(71, 71, 71);
+    color: rgb(24, 24, 24);
+    background: linear-gradient(to top, #c7c7c7, #000000);
+}
+
+.inserir{
+	width: 80%;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+	border-radius: 50px;
+    font-size: 17px;
+}
+
+.resposta{
+    border: 1px solid var(--clr-btn);
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    background: var(--clr-btn);
+}
+
+.numbers{
+    border-radius: 10px;
+    background: var(--clr-btn);
+    width: 70%;
+    font-size: 100px;
+    margin: auto;
+    border: 1px solid var(--clr-btn);
+}
